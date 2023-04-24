@@ -1,0 +1,27 @@
+df-messenger {
+ --df-messenger-bot-message: #ff4f44;
+ --df-messenger-button-titlebar-color: #7eb944;
+ --df-messenger-chat-background-color: #fafafa;
+ --df-messenger-font-color: white;
+ --df-messenger-send-icon: #ff4f44;
+ --df-messenger-user-message: #7eb944;
+}
+
+body {
+  background-image: url("../images/settlement-org-page.png");
+  background-size: cover;
+}
+
+@media screen and (max-width: 1300px) {
+  body {
+    background-image: url("../images/settlement-mid.png");
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url("../images/settlement-sm.png");
+    background-size: cover;
+  }
+}
